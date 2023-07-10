@@ -9,14 +9,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(215, 14, 47);
-
+  background-color: #e30808;
+height :200px;
+font-size: 100px;
+font-family: 'Brush Script MT', cursive;
 }
 body {
   background-image: url('wall.webp');
 }
 li {
-  float: left;
+  float: center;
 }
 
 li a {
@@ -29,20 +31,42 @@ li a {
 li a:hover {
   background-color: #e30808;
 }
+
 </style>
 </head>
 <body bg-img>
-  <div class="topnav" id="myTopnav">
 
 <ul>
-  <li><a class="active" href="#home">Hansika</a></li>
+  <li><a class="active" href="#home">Hansika
   
-  <li><img src="one.webp" alt="img" style="max-width: 80px; "></img></li>
-  <li><a href="#contact">Tony</a></li>
-  
-  
+ <img src="one.webp" alt="img" style="max-width: 170px; padding-top: 10px;"></img>
+Tony</a></li>
 </ul>
+<button type="button" onclick="myFunction()">
+  <img src="letter.webp" alt="bimg" style="width:300px; height: 200px;"></img>
+</button>
+<div id="myDIV" style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 100px; display:none;">
+  HIEEEEE......
+  Beautiful lady
+  cutie haan
+  sweetie pie
+  im sorry i didnt complete this webisite yet 
+  please wait for me to write the letter 
+  i love you my heart
 </div>
+
+
+<script>function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}</script>
+
+
+
 </body>
 </html>
 
